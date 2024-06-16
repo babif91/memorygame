@@ -3,22 +3,22 @@ import Card from './Card'
 
 function Cards(){
     const [items, setItems] = useState([
-    { id: 1, img: 'memorygame/img/cactus (1).png', stat: "" },
-    { id: 1, img: 'memorygame/img/cactus (1).png', stat: "" },
-    { id: 2, img: 'memorygame/img/cactus (2).png', stat: "" },  
-    { id: 2, img: 'memorygame/img/cactus (2).png', stat: "" }, 
-    { id: 3, img: 'memorygame/img/cactus (3).png', stat: "" }, 
-    { id: 3, img: 'memorygame/img/cactus (3).png', stat: "" }, 
-    { id: 4, img: 'memorygame/img/cactus (4).png', stat: "" }, 
-    { id: 4, img: 'memorygame/img/cactus (4).png', stat: "" }, 
-    { id: 5, img: 'memorygame/img/plant (1).png', stat: "" }, 
-    { id: 5, img: 'memorygame/img/plant (1).png', stat: "" }, 
-    { id: 6, img: 'memorygame/img/plant (2).png', stat: "" }, 
-    { id: 6, img: 'memorygame/img/plant (2).png', stat: "" }, 
-    { id: 7, img: 'memorygame/img/plant.png', stat: "" }, 
-    { id: 7, img: 'memorygame/img/plant.png', stat: "" }, 
-    { id: 8, img: 'memorygame/img/cactus.png', stat: "" }, 
-    { id: 8, img: 'memorygame/img/cactus.png', stat: "" }, 
+    { id: 1, img: './memorygame/img/cactus (1).png', stat: "" },
+    { id: 1, img: './memorygame/img/cactus (1).png', stat: "" },
+    { id: 2, img: './memorygame/img/cactus (2).png', stat: "" },  
+    { id: 2, img: './memorygame/img/cactus (2).png', stat: "" }, 
+    { id: 3, img: './memorygame/img/cactus (3).png', stat: "" }, 
+    { id: 3, img: './memorygame/img/cactus (3).png', stat: "" }, 
+    { id: 4, img: './memorygame/img/cactus (4).png', stat: "" }, 
+    { id: 4, img: './memorygame/img/cactus (4).png', stat: "" }, 
+    { id: 5, img: './memorygame/img/plant (1).png', stat: "" }, 
+    { id: 5, img: './memorygame/img/plant (1).png', stat: "" }, 
+    { id: 6, img: './memorygame/img/plant (2).png', stat: "" }, 
+    { id: 6, img: './memorygame/img/plant (2).png', stat: "" }, 
+    { id: 7, img: './memorygame/img/plant.png', stat: "" }, 
+    { id: 7, img: './memorygame/img/plant.png', stat: "" }, 
+    { id: 8, img: './memorygame/img/cactus.png', stat: "" }, 
+    { id: 8, img: './memorygame/img/cactus.png', stat: "" }, 
     ].sort(() => Math.random() - 0.5))
 
     const [prev, setPrev] = useState(-1)
