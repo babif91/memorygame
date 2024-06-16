@@ -1,7 +1,12 @@
+"homepage": "https://babif91.github.io/memorygame",
+"scripts": {
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+}
 {
   "name": "memory-game",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -34,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
