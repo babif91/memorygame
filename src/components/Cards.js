@@ -3,22 +3,22 @@ import Card from './Card'
 
 function Cards(){
     const [items, setItems] = useState([
-    { id: 1, img: '/img/cactus (1).png', stat: "" },
-    { id: 1, img: '/img/cactus (1).png', stat: "" },
-    { id: 2, img: '/img/cactus (2).png', stat: "" },  
-    { id: 2, img: '/img/cactus (2).png', stat: "" }, 
-    { id: 3, img: '/img/cactus (3).png', stat: "" }, 
-    { id: 3, img: '/img/cactus (3).png', stat: "" }, 
-    { id: 4, img: '/img/cactus (4).png', stat: "" }, 
-    { id: 4, img: '/img/cactus (4).png', stat: "" }, 
-    { id: 5, img: '/img/plant (1).png', stat: "" }, 
-    { id: 5, img: '/img/plant (1).png', stat: "" }, 
-    { id: 6, img: '/img/plant (2).png', stat: "" }, 
-    { id: 6, img: '/img/plant (2).png', stat: "" }, 
-    { id: 7, img: '/img/plant.png', stat: "" }, 
-    { id: 7, img: '/img/plant.png', stat: "" }, 
-    { id: 8, img: '/img/cactus.png', stat: "" }, 
-    { id: 8, img: '/img/cactus.png', stat: "" }, 
+    { id: 1, img: 'public/img/cactus (1).png', stat: "" },
+    { id: 1, img: 'public/img/cactus (1).png', stat: "" },
+    { id: 2, img: 'public/img/cactus (2).png', stat: "" },  
+    { id: 2, img: 'public/img/cactus (2).png', stat: "" }, 
+    { id: 3, img: 'public/img/cactus (3).png', stat: "" }, 
+    { id: 3, img: 'public/img/cactus (3).png', stat: "" }, 
+    { id: 4, img: 'public/img/cactus (4).png', stat: "" }, 
+    { id: 4, img: 'public/img/cactus (4).png', stat: "" }, 
+    { id: 5, img: 'public/img/plant (1).png', stat: "" }, 
+    { id: 5, img: 'public/img/plant (1).png', stat: "" }, 
+    { id: 6, img: 'public/img/plant (2).png', stat: "" }, 
+    { id: 6, img: 'public/img/plant (2).png', stat: "" }, 
+    { id: 7, img: 'public/img/plant.png', stat: "" }, 
+    { id: 7, img: 'public/img/plant.png', stat: "" }, 
+    { id: 8, img: 'public/img/cactus.png', stat: "" }, 
+    { id: 8, img: 'public/img/cactus.png', stat: "" }, 
     ].sort(() => Math.random() - 0.5))
 
     const [prev, setPrev] = useState(-1)
