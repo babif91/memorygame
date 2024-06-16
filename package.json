@@ -1,7 +1,7 @@
-"homepage": "https://babif91.github.io/memorygame",
-"scripts": {
+{ "homepage": "https://babif91.github.io/memorygame", "scripts": {
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
+}
 }
 {
   "name": "memory-game",
