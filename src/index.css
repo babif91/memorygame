@@ -44,7 +44,7 @@ h1 {
 }
 
 .card img {
-  max-width: 70%;
+  max-width: 60%;
   max-height: 70%;
   transform: scale(0);
   animation: 2s hideImage linear;
